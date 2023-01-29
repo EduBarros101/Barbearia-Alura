@@ -12,6 +12,12 @@
   width: 100%;
 }
 
+.header-box {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
 .principal {
   background: #cccccc;
   padding: 30px;
@@ -38,15 +44,36 @@
   width: 50%;
 }
 
+header {
+  padding: 20px 0;
+  background: #bbbbbb;
+}
+
 p {
   text-align: center;
 }
 
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0 15px;
+  list-style: none;
+}
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
 
 em strong {

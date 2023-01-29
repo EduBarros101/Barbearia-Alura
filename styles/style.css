@@ -100,6 +100,7 @@ nav ul {
 }
 nav ul li {
   margin: 0 15px;
+  list-style: none;
 }
 nav ul li a {
   color: #000000;

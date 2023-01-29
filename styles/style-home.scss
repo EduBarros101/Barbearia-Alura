@@ -12,6 +12,12 @@
   width: 100%;
 }
 
+.header-box {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
 .principal {
   background: #cccccc;
   padding: 30px;
@@ -38,16 +44,49 @@
   width: 50%;
 }
 
+header {
+  padding: 20px 0;
+  background: #bbbbbb;
+}
+
 p {
   text-align: center;
 }
 
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  ul {
+    display: flex;
+
+    li {
+      margin: 0 15px;
+      list-style: none;
+
+      a {
+        color: #000000;
+        text-decoration: none;
+
+        &:hover {
+          color: #c78c19;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
+
+// ul {
+//   display: inline-block;
+//   vertical-align: top;
+//   width: 20%;
+//   margin-right: 15%;
+// }
 
 em strong {
   color: #ff0000;
