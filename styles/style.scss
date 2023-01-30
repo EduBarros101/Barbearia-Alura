@@ -132,6 +132,10 @@ main {
   form {
     margin: 40px 0;
 
+    fieldset {
+      border: none;
+    }
+
     label,
     legend {
       display: block;
@@ -142,19 +146,20 @@ main {
 }
 
 table {
+  border-collapse: collapse;
   margin: 20px 0 40px;
-}
 
-thead {
-  background: #555555;
-  color: white;
-  font-weight: bold;
-}
+  thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+  }
 
-td,
-th {
-  border: 1px solid #000000;
-  padding: 15px 8px;
+  td,
+  th {
+    border: 1px solid #000000;
+    padding: 15px 8px;
+  }
 }
 
 footer {

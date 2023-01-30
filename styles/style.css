@@ -118,6 +118,9 @@ main {
 main form {
   margin: 40px 0;
 }
+main form fieldset {
+  border: none;
+}
 main form label,
 main form legend {
   display: block;
@@ -126,17 +129,16 @@ main form legend {
 }
 
 table {
+  border-collapse: collapse;
   margin: 20px 0 40px;
 }
-
-thead {
+table thead {
   background: #555555;
   color: white;
   font-weight: bold;
 }
-
-td,
-th {
+table td,
+table th {
   border: 1px solid #000000;
   padding: 15px 8px;
 }
