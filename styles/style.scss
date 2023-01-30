@@ -4,10 +4,51 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+// Estilos diretamente em classes abaixo.
+
 .header-box {
   position: relative;
   width: 940px;
   margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1rem;
+}
+
+.principal {
+  p {
+    margin: 0 0 1em;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+}
+
+.utensilios {
+  float: left;
+  width: 120px;
+  margin: 0 20px 20px 0;
+}
+
+.imagem-beneficios {
+  width: 60%;
+  clear: left;
 }
 
 .input-standard {
@@ -91,6 +132,8 @@
   font-size: 13px;
   margin-top: 20px;
 }
+
+// Estilos diretamente em elementos abaixo.
 
 header {
   padding: 20px 0;
