@@ -9,6 +9,7 @@
 }
 
 #banner {
+  display: block;
   width: 100%;
 }
 
@@ -26,6 +27,13 @@
 .beneficios {
   background: #ffffff;
   padding: 20px;
+}
+.beneficios ul {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
 }
 
 .titulo-principal {
