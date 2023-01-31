@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -153,7 +154,6 @@ nav {
 
     li {
       margin: 0 15px;
-      list-style: none;
 
       a {
         color: #000000;
