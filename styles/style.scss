@@ -26,6 +26,8 @@ body {
   text-align: center;
   font-size: 2em;
   margin: 0 0 1rem;
+
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .principal {
@@ -83,6 +85,12 @@ body {
 
 .imagem-beneficios {
   width: 60%;
+  opacity: 0.8;
+  transition: 0.3s all;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .input-standard {
