@@ -26,8 +26,6 @@ body {
   text-align: center;
   font-size: 2em;
   margin: 0 0 1rem;
-
-  color: rgba(0, 0, 0, 0.7);
 }
 
 .principal {
@@ -61,6 +59,18 @@ body {
   padding: 3em 0;
 }
 
+.imagem-beneficios {
+  width: 60%;
+  opacity: 0.8;
+  transition: 0.3s all;
+
+  box-shadow: 10px 10px 20px black;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 .conteudo-beneficios {
   display: flex;
   width: 640px;
@@ -80,16 +90,6 @@ body {
 
   &::before {
     content: '★';
-  }
-}
-
-.imagem-beneficios {
-  width: 60%;
-  opacity: 0.8;
-  transition: 0.3s all;
-
-  &:hover {
-    opacity: 1;
   }
 }
 
