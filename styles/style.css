@@ -30,6 +30,7 @@ body {
 .principal {
   width: 940px;
   margin: 0 auto;
+  text-align: justify;
   padding: 3em 0 0;
   background: #fefefe;
 }
@@ -245,6 +246,16 @@ footer {
 .video {
     width: auto;
   }
+  .principal {
+    text-align: justify;
+  }
+  .conteudo-beneficios {
+    display: block;
+  }
+  .lista-beneficios,
+.imagem-beneficios {
+    width: 100%;
+  }
   h1 {
     text-align: center;
   }
@@ -253,12 +264,5 @@ footer {
   }
   nav ul {
     justify-content: center;
-  }
-  .conteudo-beneficios {
-    display: block;
-  }
-  .conteudo-beneficios .lista-beneficios,
-.conteudo-beneficios .imagem-beneficios {
-    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
