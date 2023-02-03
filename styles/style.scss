@@ -61,8 +61,8 @@ body {
 
 .imagem-beneficios {
   width: 60%;
-  opacity: 0.8;
-  transition: 0.3s all;
+  opacity: 0.9;
+  transition: 0.3s;
 
   box-shadow: 10px 10px 20px black;
 
@@ -267,4 +267,35 @@ footer {
   padding: 40px 0;
   text-align: center;
   background: url('../assets/images/produtos/bg.jpg');
+}
+
+@media screen and (max-width: 480px) {
+  .header-box,
+  .principal,
+  .conteudo-beneficios,
+  .map-content,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+
+    ul {
+      justify-content: center;
+    }
+  }
+
+  .conteudo-beneficios {
+    display: block;
+
+    .lista-beneficios,
+    .imagem-beneficios {
+      width: 100%;
+    }
+  }
 }
