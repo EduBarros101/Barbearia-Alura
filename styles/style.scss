@@ -274,14 +274,38 @@ footer {
 @media screen and (max-width: 480px) {
   .header-box,
   .principal,
+  .titulo-principal,
   .conteudo-beneficios,
-  .map-content,
-  .video {
+  .map-content {
     width: auto;
+    margin: 1.5rem;
+  }
+
+  .video {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    margin: 1.5rem;
+    padding-top: 56.25%;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .principal {
     text-align: justify;
+  }
+
+  .map,
+  .beneficios {
+    padding: 1.5em 0;
   }
 
   .conteudo-beneficios {
@@ -291,6 +315,10 @@ footer {
   .lista-beneficios,
   .imagem-beneficios {
     width: 100%;
+  }
+
+  .lista-beneficios {
+    margin: 0 0 1rem;
   }
 
   h1 {
